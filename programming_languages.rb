@@ -11,7 +11,6 @@ require 'pry'
 
 def reformat_languages(languages)
   new_hash = {}
-  style_array = [] 
   
   languages.each do |style, lang_data|
     lang_data.each do |lang, type_data|
